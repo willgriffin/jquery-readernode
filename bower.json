@@ -1,0 +1,19 @@
+{
+	"name": "jquery-readernode",
+	"version": "0.0.1",
+	"homepage": "http://github.com/willg/jquery-readernode",
+	"authors": [
+		"will griffin <willgriffin@gmail.com>"
+	],
+	"description": "A spritz-esque reader for jquery",
+	"main": "src/jquery.readernode.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"boilerplate",
+		"jquery-plugin",
+		"jquery-boilerplate",
+		"ebook"
+	],
+	"license": "MIT"
+}
