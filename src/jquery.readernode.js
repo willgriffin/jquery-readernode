@@ -305,7 +305,7 @@
     //
     startPlayback: function() {
       this.running = true;
-      $(my.element).trigger("playbackStarted", this.pointer);
+      $(this.element).trigger("playbackStarted", this.pointer);
       this.toggleButton.addClass("active");
       this.ticker();
 
@@ -318,7 +318,7 @@
     //
     stopPlayback: function() {
       this.running = false;
-      $(my.element).trigger("playbackStopped", this.pointer);
+      $(this.element).trigger("playbackStopped", this.pointer);
       this.toggleButton.removeClass("active");
     }
 
